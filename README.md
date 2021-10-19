@@ -1,14 +1,15 @@
 # Goldman-Sachs-Crack-Leaked-Passsword-Database
- # Password Controls and Security Policies
-  # Overview
+## Password Controls and Security Policies
+
+### Overview
 As a governance analyst it is part of your duties to assess the level of protection offered by implemented controls and minimize the probability of a successful breach. You often need to know the techniques used by hackers to circumvent implemented controls and propose uplifts to increase the overall level of security in an organization. Gaining valid credentials gives the attackers access to the organization’s IT system, thus circumventing most of perimeter controls in place.
 
- # Project Objective
-What type of hashing algorithm was used to protect passwords?
+## Project Objective
+`What type of hashing algorithm was used to protect passwords?
 
-What level of protection does the mechanism offer for passwords?
+`What level of protection does the mechanism offer for passwords?
 
-What controls could be implemented to make cracking much harder for the hacker in the event of a password database leaking again?
+`What controls could be implemented to make cracking much harder for the hacker in the event of a password database leaking again?
 
 Here is a sample data file containing hashes dumped together:
 
@@ -30,10 +31,11 @@ As a result of the analysis the following uplifts are proposed to increase the o
 
 • Educate users on the benefits of passwords managers. Having a password manager allows having very long and completely random passwords (e.g. M>?{tk6Cfep6BrZ4J)KZWQ8j) without the need to remember/write down. A strong passphrase is still required as a master key for to access the password manager.
 
-# Project Report and Observations
+## Project Report and Observations
 Completing this task assigned by Goldman Sachs, MD5 and SHA were the two algorithms that I came across. Analysing the passwords and their respective security algorithms used, I narrowed down my observations into this report.
 
- # Project Report
+## Project Report
+```
 Dear Sir/Ma’am
 
 After trying to crack all the leaked hashes, I found several vulnerabilities in your password policy 
@@ -62,8 +64,9 @@ You can include several new things in your password policy. My recommendations a
 Thanking you, 
 Name: Neel P. Akolkar
 B.Tech Electronics and Telecommunications 
-
-# Observations:
+```
+## Observations:
+```
 Security Algorithms used: 
 
 experthead:e10adc3949ba59abbe56e057f20f883e – MD5
@@ -131,14 +134,13 @@ liveltekah:3f230640b78d7e71ac5514e57935eb69 - qazxsw
 
 blikimore:917eb5e9d6d6bca820922a0c6f7cc28b - Pa$$word1
 
-
 johnwick007:f6a0cb102c62879d397b12b62c092c06 - bluered
-
-# Complete report is available at:
+```
+Complete report is available at:
 
 https://github.com/srinaimishareddy/Goldman-Sachs-Crack-Leaked-Passsword-Database/blob/main/SHA%20Hashes%20and%20Goldman%20Sachs%20Internship.pdf
 
-# Resources
+## Resources
 https://arstechnica.com/information-technology/2013/05/how-crackers-make-minced-meat-out-of-your-passwords/
 
 https://howsecureismypassword.net/
